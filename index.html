@@ -9,10 +9,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
     <title>Clipboard | The clipboard service website</title>
 </head>
-<body>
+<body class="bg-[url(images/bg-header-mobile.png)] bg-no-repeat bg-cover md:bg-[url(images/bg-header-desktop.png)]">
 <!-- hero -->
-<section id="hero" class="px-12 py-16">
-    <div class="max-w-6xl flex flex-col items-center justify-center mx-auto gap-y-12 py-6">
+<section id="hero">
+    <div class="px-12 py-16 max-w-6xl flex flex-col items-center justify-center mx-auto gap-y-12">
         <img src="images/logo.svg" alt="Clipboard logo">
         <h1 class="text-4xl md:text-5xl text-center text-darkGrayBlue font-semibold mt-4">A history of everything you
             copy</h1>
@@ -36,11 +36,11 @@
     </div>
 </section>
 
-<section id="snippets ">
-    <div class="py-12 flex flex-col justify-center items-center gap-2 mt-4">
+<section id="snippets">
+    <div class="py-12 md:my-12 px-6 flex flex-col justify-center items-center gap-2 mt-4">
         <h1 class="text-4xl md:text-5xl text-center text-darkGrayBlue font-semibold">Keep track of your
             snippets</h1>
-        <p class="leading-relaxed text-center max-w-lg md:max-w-4xl text-darkGrayBlue opacity-80 text-2xl mt-8 text-xl">
+        <p class="leading-relaxed text-center max-w-sm sm:max-w-lg md:max-w-4xl text-darkGrayBlue opacity-80 text-2xl mt-8 text-xl">
             Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately
             on all your devices. Our Mac and iOS apps will help you organize everything. </p>
     </div>
@@ -48,7 +48,7 @@
 
 <!-- features -->
 <section id="features">
-    <div class="my-12 py-20 px-6 flex flex-col justify-center items-center gap-y-16 md:flex-row md:gap-x-16">
+    <div class="mt-6 py-12 px-6 md:mt-8 flex flex-col justify-start items-center gap-y-16 md:flex-row md:gap-x-16">
         <!--        featured image -->
         <figure class="w-1/2 md:w-4/5 md:relative">
             <img src="images/image-computer.png" alt="Computer Image"
@@ -84,9 +84,9 @@
 
 <!-- access anywhere -->
 <div id="access">
-    <div class="py-20 mt-24 flex flex-col items-center justify-center gap-y-12">
-        <h1 class="text-4xl md:text-5xl text-center text-darkGrayBlue font-semibold mt-4">Access Clipboard Anywhere</h1>
-        <p class="text-xl text-center text-darkGrayBlue max-w-3xl">
+    <div class="py-8 md:mt-24 flex flex-col items-center justify-center gap-y-12">
+        <h1 class="text-3xl sm:text-4xl max-w-sm md:max-w-2xl md:text-5xl text-center text-darkGrayBlue font-semibold mt-4">Access Clipboard Anywhere</h1>
+        <p class="text-xl max-w-sm md:max-w-2xl text-center text-darkGrayBlue max-w-3xl">
             Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple
             clicks.
         </p>
