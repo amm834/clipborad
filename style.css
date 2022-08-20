@@ -8,6 +8,18 @@ body {
     background-size: cover;
 }
 
+.btn {
+    @apply transition duration-200 py-4 px-6  w-full text-center rounded-full text-xl hover:opacity-80;
+}
+
+.btn-cyan {
+    @apply btn bg-strongCyan text-white;
+}
+
+.btn-purple {
+    @apply btn bg-lightBlue text-white;
+}
+
 @media screen and (min-width: 480px) {
     body {
         background-image: url("images/bg-header-desktop.png");
