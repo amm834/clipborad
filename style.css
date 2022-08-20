@@ -14,3 +14,8 @@
 .btn-purple {
     @apply btn bg-lightBlue text-white;
 }
+
+
+.icon:hover {
+    filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg) brightness(101%) contrast(94%);
+}
