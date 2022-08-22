@@ -4,7 +4,7 @@
 
 
 .btn {
-    @apply transition duration-200 py-4 px-6  w-full text-center rounded-full text-xl hover:opacity-80;
+    @apply transition duration-200 py-4 px-6  w-full text-center rounded-full text-xl outline-none hover:opacity-80;
 }
 
 .btn-cyan {
